@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffdb"
+    tools:context=".DetailsActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarEventDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="6dp"
+        android:minHeight="40dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chittogong Tour"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/exTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expense"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"/>
+        <TextView
+            android:id="@+id/bugetTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2000"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:id="@+id/cex"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="18dp"
+                />
+            <ProgressBar
+                android:id="@+id/budgetProgress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:minHeight="20dp"
+                android:minWidth="250dp"
+                android:progress="1" />
+            <TextView
+                android:id="@+id/tex"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+        <ExpandableListView
+            android:id="@+id/expandList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ExpandableListView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Event list"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:onClick="listBack"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

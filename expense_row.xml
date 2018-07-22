@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#EFF5D5">
+    <TextView
+        android:id="@+id/exTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Expense"
+        android:layout_gravity="center"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/amountEt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="enter Amount"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/commentEt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="add comment"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+</LinearLayout>

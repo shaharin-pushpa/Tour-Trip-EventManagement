@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFF5D5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Name "
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/upEventName"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="Enter event name"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_edit"
+            android:singleLine="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Location "
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/upStartLocationName"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="Your start Location"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_edit"
+            android:singleLine="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination "
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/upDestination"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="Your destination"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_edit"
+            android:singleLine="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="26dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departure"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/upDeparture"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="Departure date"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_edit"
+            android:singleLine="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="44dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created Date "
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/upCre"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="Created date"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_edit"
+            android:singleLine="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budget "
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/upBudget"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="Your Estimated budget"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_edit"
+            android:singleLine="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="62dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
